@@ -1,0 +1,84 @@
+* {
+    margin: o;
+    box-sizing: border-box;
+}
+header {
+    height: 70px;
+    background: #1ABC9C;
+    padding: 20px 0;
+}
+.header-wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.social-icon {
+    margin-right: 20px;
+}
+
+/* Home work */
+
+.about {
+    width: 100%;
+    padding: 0;
+    display: right; 
+}
+.about-wrapper {
+    margin-left: 50%;
+    background: #f7f9f9;
+    padding: 0; 
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.about-title {
+   font-size: 32;
+   text-align: center;
+}
+.about-descr {
+    font-size: 20;
+    text-align: center;
+}
+.office {
+    width: 50%;
+    height: 100%;
+   justify-content: left;
+   margin-top: 0;
+   margin-right: 50%;
+}
+.projects {
+    background: #DCFFEB;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.projects-wrapper {
+    width: 100%;
+    margin: 124 64 124 65;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+} 
+.projects-item-hover {
+    height: 50%; /*на всю высоту проджектс айтем*/
+    /* background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(33, 80, 138, 0.8)); */
+    opacity: 0; /*opacity - прозрачность, чем ближе к 0 тем более прозр*/
+    display: flex;
+    justify-content: center; /*по горизонтали*/
+    align-items: center;
+    transition: 1s;
+}
+.projects-item-hover:hover {
+    opacity: 1;
+}
